@@ -1,0 +1,57 @@
+        .color1{
+            background-color: bisque;
+        }
+        .color2{
+            background-color:lightblue;
+        }
+        .color3{
+            background-color:chocolate;
+        }
+        .color4{
+            background-color:aquamarine;
+        }
+        .wrapper{
+            max-width: 1000px;
+        }
+        .center_x{
+            display: flex;
+            align-items: center;
+        }
+        .center_y{
+            display: flex;
+            justify-content: center;
+        }
+        .f0{
+           display: flex;
+            flex-direction: column; 
+        }
+        .f1{
+        }
+        .f2{
+			display: flex;
+			flex-wrap: wrap;
+			align-content: center;
+			justify-content: center;
+			height: 100%;
+            border: 4px double black;
+        }
+        .f21{
+			background-color:lightgray;
+			border: 1px dotted red;
+			margin: 5px 10px;
+			display: flex;
+			flex-wrap: wrap;
+			align-content: space-between;
+        }
+		.f21,.f21-img{
+			max-width:200px;
+		}
+		
+        .f3{
+			  display: flex;
+			  justify-content: space-between;
+			color: yellow; /* Цвет текста */
+			font-weight: 600; /* Полужирное начертание */
+          }
+
+
