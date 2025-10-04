@@ -12,46 +12,34 @@
         }
         .wrapper{
             max-width: 1000px;
-        }
-        .center_x{
-            display: flex;
-            align-items: center;
-        }
-        .center_y{
-            display: flex;
-            justify-content: center;
-        }
+        } 
         .f0{
            display: flex;
-            flex-direction: column; 
-        }
-        .f1{
+           flex-direction: column; 
         }
         .f2{
-			display: flex;
-			flex-wrap: wrap;
-			align-content: center;
-			justify-content: center;
-			height: 100%;
-            border: 4px double black;
-        }
+			    display: flex;
+			    flex-direction: column;
+			    flex : 1;
+          border: 4px double black;
+       }
         .f21{
 			background-color:lightgray;
 			border: 1px dotted red;
 			margin: 5px 10px;
 			display: flex;
-			flex-wrap: wrap;
-			align-content: space-between;
+/*			flex-direction: column; */
         }
-		.f21,.f21-img{
-			max-width:200px;
+
+.phead{
+  font-size: 1.1em;
+  font-weight: 600;
+    color:#191970;
+}
+p>span, li>span{
+  color:red;
+  font-weight: 600;
+} 
+		.f21-img{
+			max-width:350px;
 		}
-		
-        .f3{
-			  display: flex;
-			  justify-content: space-between;
-			color: yellow; /* Цвет текста */
-			font-weight: 600; /* Полужирное начертание */
-          }
-
-
